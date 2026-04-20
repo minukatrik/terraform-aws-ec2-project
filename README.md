@@ -26,6 +26,7 @@ This project provisions:
 ## Project structure
 
 .
+
 ├── .gitignore
 
 ├── README.md
@@ -43,3 +44,46 @@ This project provisions:
 ├── variables.tf
 
 └── versions.tf
+
+## Prerequisites
+- AWS account
+- AWS CLI configuration
+- Terraform installed
+- Git installed
+
+## Usage
+1. Initialize Terraform
+    - terraform init
+2. Format and validate
+    - terraform fmt
+    - terraform validate
+3. Review Plan
+    - terraform plan -out=tfplan
+4. Apply infrastructure
+    - terraform output
+5. View Outputs
+    - terraform output
+6. Destroy Infrastructure
+    - terraform destroy
+
+## Best Pracices Used
+- provide version pinning
+- reusable variables
+- organized Terraform files
+- default resource tagging
+- output values for easy verification
+- user data bootstrapping
+- .gitignore protection for Terraform artifacts
+
+## Notes
+This project establishes a modular and extensible Terraform architecture for AWS infrastructure, enabling seamless integration of advanced capabilities such as:
+- remote state in S3
+- DynamoDB state locking
+- reusable modules
+- ALB and autoscalling
+- private subnets
+- NAT gateway
+- CI/CD pipelines integration
+
+## Author
+Minuka Trikawalagoda
