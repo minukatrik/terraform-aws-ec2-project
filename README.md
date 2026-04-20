@@ -26,23 +26,14 @@ This project provisions:
 ## Project structure
 
 .
-
 ├── .gitignore
-
 ├── README.md
-
 ├── main.tf
-
 ├── outputs.tf
-
 ├── provider.tf
-
 ├── terraform.tfvars
-
 ├── user-data.sh
-
 ├── variables.tf
-
 └── versions.tf
 
 ## Prerequisites
