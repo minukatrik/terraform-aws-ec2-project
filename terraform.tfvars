@@ -1,0 +1,8 @@
+aws_region         = "us-east-2"
+project_name       = "terraform-aws-ec2-project"
+environment        = "dev"
+vpc_cidr           = "10.0.0.0/16"
+public_subnet_cidr = "10.0.1.0/24"
+availability_zone  = "us-east-2a"
+instance_type      = "t2.micro"
+allowed_ssh_cidr   = "0.0.0.0/0"
