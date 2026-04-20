@@ -27,11 +27,19 @@ This project provisions:
 
 .
 ├── .gitignore
+
 ├── README.md
+
 ├── main.tf
+
 ├── outputs.tf
+
 ├── provider.tf
+
 ├── terraform.tfvars
+
 ├── user-data.sh
+
 ├── variables.tf
+
 └── versions.tf
